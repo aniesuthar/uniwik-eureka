@@ -28,11 +28,11 @@ export default function Footer() {
           <div className="space-y-3">
             <h4 className="font-semibold text-slate-900 text-xs uppercase tracking-wider">Product</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#how-it-works" className="hover:text-slate-900 transition-colors">How It Works</a></li>
-              <li><a href="#problem" className="hover:text-slate-900 transition-colors">The Problem</a></li>
-              <li><a href="#platforms" className="hover:text-slate-900 transition-colors">Platforms</a></li>
-              <li><a href="#collections" className="hover:text-slate-900 transition-colors">Collections</a></li>
-              <li><a href="#waitlist" className="hover:text-slate-900 transition-colors">Early Access</a></li>
+              <li><Link href="/#how-it-works" className="hover:text-slate-900 transition-colors">How It Works</Link></li>
+              <li><Link href="/#problem" className="hover:text-slate-900 transition-colors">The Problem</Link></li>
+              <li><Link href="/#platforms" className="hover:text-slate-900 transition-colors">Platforms</Link></li>
+              <li><Link href="/#collections" className="hover:text-slate-900 transition-colors">Collections</Link></li>
+              <li><Link href="/#waitlist" className="hover:text-slate-900 transition-colors">Early Access</Link></li>
             </ul>
           </div>
 
@@ -40,10 +40,10 @@ export default function Footer() {
           <div className="space-y-3">
             <h4 className="font-semibold text-slate-900 text-xs uppercase tracking-wider">About &amp; Legal</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#vision" className="hover:text-slate-900 transition-colors">Vision</a></li>
-              <li><a href="mailto:contact@uniwik.com" className="hover:text-slate-900 transition-colors">Contact</a></li>
-              <li><a href="#privacy" className="hover:text-slate-900 transition-colors">Privacy Policy</a></li>
-              <li><a href="#terms" className="hover:text-slate-900 transition-colors">Terms</a></li>
+              <li><Link href="/#vision" className="hover:text-slate-900 transition-colors">Vision</Link></li>
+              <li><a href="mailto:support@uniwik.com" className="hover:text-slate-900 transition-colors">Contact</a></li>
+              <li><Link href="/privacy" className="hover:text-slate-900 transition-colors">Privacy Policy</Link></li>
+              <li><Link href="/terms" className="hover:text-slate-900 transition-colors">Terms &amp; Conditions</Link></li>
             </ul>
           </div>
         </div>
